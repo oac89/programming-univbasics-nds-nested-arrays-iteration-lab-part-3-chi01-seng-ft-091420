@@ -6,7 +6,7 @@ row_index = 0
   
     while element_index < src[row_index].length do
        if src[row_index][element_index].class == String
-       mixed_data_1 << string_element
+       mixed_data_1 << src[row_index][element_index]
      end 
         element += 1 
     end 
