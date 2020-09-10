@@ -1,20 +1,20 @@
 def join_nested_strings(src)
-  total = 0 
-  row_index = 0 
-  while row_index < src.count do
-    element_index = 0 
-    while element_index < src[row_index].count do
-    total += src[row_index][element_index]
-    element_index += 1
-  end
-  row_index += 1
-  end 
-  total 
-  while join_nested_strings(mixed_data).to_string 
+mixed_data_1 = [ ]
+row_index = 0
+  while row_index < src.length do
+  element = 0
   
+   string_element = while element < src.length do
+       p src[element] = string_element 
+       mixed_data_1 << string_element
+        element += 1 
+    end 
+   row_index += 1 
+   end 
+    
+mixed_data_1.join(" ")
+end 
   
   # src will be an Array of Arrays of Strings and Integers
   # Combine all Strings present in the AoA into a single value and return it
-  join_nested_strings
-  end
-end   
+
