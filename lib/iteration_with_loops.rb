@@ -8,7 +8,7 @@ row_index = 0
        if src[row_index][element_index].class == String
        mixed_data_1 << src[row_index][element_index]
      end 
-        element += 1 
+        element_index += 1 
     end 
    row_index += 1 
    end 
