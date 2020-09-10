@@ -5,8 +5,9 @@ row_index = 0
   element = 0
   
    string_element = while element < src.length do
-       p src[element] = string_element 
+       if src[element] == String
        mixed_data_1 << string_element
+     end 
         element += 1 
     end 
    row_index += 1 
