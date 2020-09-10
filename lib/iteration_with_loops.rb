@@ -2,10 +2,10 @@ def join_nested_strings(src)
 mixed_data_1 = [ ]
 row_index = 0
   while row_index < src.length do
-  element = 0
+  element_index = 0
   
-   string_element = while element < src.length do
-       if src[element] == String
+    while element_index < src[row_index].length do
+       if src[row_index][element_index].class == String
        mixed_data_1 << string_element
      end 
         element += 1 
